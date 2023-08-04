@@ -26,7 +26,7 @@ public class CyclicSort {
                 arr[correctIndex] = temp;
             }
             else{
-                i++;       //vrna aage bdh jaoo
+                i++;       //vrna aage bdh jao
             }
         }
     }
