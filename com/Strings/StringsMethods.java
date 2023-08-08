@@ -24,7 +24,7 @@ public class StringsMethods {
         System.out.println(str.replace("n","b"));
         System.out.println(str.substring(0,3));
         System.out.println(str.toCharArray());
-        System.out.println(str.);
+
 
     }
 }
