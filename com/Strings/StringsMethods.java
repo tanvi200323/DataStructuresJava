@@ -27,5 +27,8 @@ public class StringsMethods {
         System.out.println(Arrays.toString(str.toCharArray())); //converts string to a char array
         System.out.println(str3.strip()); //removes whitespaces like trim() method, but also removes unicode whitespace characters ensuring cross-platform consistency
         System.out.println(Arrays.toString(str.split("a"))); //splits a string where it finds a particular char, returns array
+        String[] strrr = str.split("a");
+        System.out.println(Arrays.toString(strrr));
+
     }
 }
