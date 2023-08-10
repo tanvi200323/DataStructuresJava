@@ -19,7 +19,7 @@ public class RandomString {
         //removing whitespaces
         String sentence = "    hi jsabdob sdc dcs    sf dv daf a fv  ";
         System.out.println(sentence);
-        System.out.println(sentence.trim());//removes only leading and trailing whitespaces
+        System.out.println(sentence.trim());//removes only leading and trailing whitespacess
         System.out.println(sentence.replaceAll("\\s",""));
 
         //rounding off
