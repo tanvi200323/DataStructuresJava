@@ -1,6 +1,6 @@
 package com.Recursion;
 
-public class printNum {
+public class _1printNum {
     public static void main(String[] args) {
         int num = 1;
         printnum(num);

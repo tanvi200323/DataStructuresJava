@@ -1,6 +1,6 @@
 package com.Recursion;
 
-public class BinarySearch {
+public class _3BinarySearch {
     public static void main(String[] args) {
         int[] arr = {2, 4, 55, 72, 455, 22};
         int target = 55;

@@ -1,6 +1,6 @@
 package com.Recursion;
 
-public class FibonacciNumbers {
+public class _2FibonacciNumbers {
     public static void main(String[] args) {
         int n = 4;
         int ans = fibo(n);
