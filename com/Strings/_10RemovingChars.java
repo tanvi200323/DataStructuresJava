@@ -1,8 +1,6 @@
 package com.Strings;
 
-import java.util.stream.Stream;
-
-public class RemovingChars {
+public class _10RemovingChars {
     public static void main(String[] args) {
         String str = "bacchaas";
         skipchar("",str);

@@ -3,7 +3,7 @@ package com.Strings;
 import java.text.DecimalFormat;
 import java.util.Random;
 
-public class RandomString {
+public class _4RandomString {
     public static void main(String[] args) {
         int size = 5; //size 5 ki random string
         StringBuffer sb = new StringBuffer(size);

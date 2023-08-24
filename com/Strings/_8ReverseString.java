@@ -1,6 +1,6 @@
 package com.Strings;
 
-public class ReverseString {
+public class _8ReverseString {
     public static void main(String[] args) {
         String s = "Tanvi";
         System.out.println(reverse(s,s.length()-1,""));

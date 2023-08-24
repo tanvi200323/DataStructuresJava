@@ -1,9 +1,8 @@
 package com.Strings;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class StringsMethods {
+public class _2StringsMethods {
     public static void main(String[] args) {
         String str = "Tanvi Sharma";
 

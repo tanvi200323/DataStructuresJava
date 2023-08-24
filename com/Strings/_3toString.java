@@ -1,10 +1,9 @@
 package com.Strings;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class toString {
+public class _3toString {
     public static void main(String[] args) {
         Integer num = new Integer(56); //Wrapper class- Integer
         System.out.println(num.toString());

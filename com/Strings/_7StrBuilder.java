@@ -1,6 +1,6 @@
 package com.Strings;
 
-public class StrBuilder {
+public class _7StrBuilder {
     public static void main(String[] args) {
         //print a-z by string:
         String series = "";

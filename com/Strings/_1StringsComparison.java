@@ -1,6 +1,6 @@
 package com.Strings;
 
-public class StringsComparison {
+public class _1StringsComparison {
     public static void main(String[] args) {
         //SCP
         String name1= "tanvi";

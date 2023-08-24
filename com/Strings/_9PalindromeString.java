@@ -1,6 +1,6 @@
 package com.Strings;
-import java.util.*;
-public class PalindromeString {
+
+public class _9PalindromeString {
     public static void main(String[] args) {
         String str = "abcba";
         boolean ans = palindrom(str);

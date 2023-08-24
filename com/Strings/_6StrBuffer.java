@@ -1,6 +1,6 @@
 package com.Strings;
 
-public class StrBuffer {
+public class _6StrBuffer {
     public static void main(String[] args) {
         //Constructor 1
         StringBuffer sb1 = new StringBuffer();
