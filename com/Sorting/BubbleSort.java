@@ -17,15 +17,15 @@ public class BubbleSort {
     }
     static void sort(int[] arr){
         boolean swapped;
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<arr.length; i++){ //runs for every pass expect for those who are already sorted
             swapped = false;
             for(int j=1; j<(arr.length-i); j++){ //j<arr.length-i : taki jo already sorted elts hain end mein vaha tk jake time pass na kre
                 if(arr[j-1] > arr[j]){
                     int temp = arr[j];
                     arr[j] = arr[j-1];
                     arr[j-1] = temp;
+                    swapped = true;
                 }
-                swapped = true;
             }
             if(!swapped){
                 break; //taki efficient bnjaye code

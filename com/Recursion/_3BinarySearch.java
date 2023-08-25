@@ -23,6 +23,4 @@ public class _3BinarySearch {
             return bs(arr, target, middle+1, end);
         }
     }
-
-
 }
