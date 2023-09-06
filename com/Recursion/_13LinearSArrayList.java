@@ -2,7 +2,7 @@ package com.Recursion;
 
 import java.util.ArrayList;
 
-public class _13LinearSearchRec {
+public class _13LinearSArrayList {
     public static void main(String[] args) {
         int[] arr = {3,2,1,18,18,9};
         int ans = findIndex(arr, 0, 9);
