@@ -18,8 +18,7 @@ public class _1Methods {
         System.out.println("----------");
 
         //remove elt
-        st.pop();
-        System.out.println(st.peek());
+        System.out.println(st.pop());
         System.out.println("----------");
 
         //size of stack

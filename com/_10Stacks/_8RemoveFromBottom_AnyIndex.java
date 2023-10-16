@@ -9,6 +9,7 @@ public class _8RemoveFromBottom_AnyIndex {
         st.push(2);
         st.push(3);
         st.push(4);
+        System.out.println(st);
 
         Stack<Integer> rt = new Stack<>();
         int index = 2;
@@ -16,6 +17,12 @@ public class _8RemoveFromBottom_AnyIndex {
         while(st.size() > index + 1){
             rt.push(st.pop());
         }
-        sou
+        st.pop();
+        while(rt.size()>0){
+            st.push(rt.pop());
+        }
+
+        System.out.println(st);
+
     }
 }
