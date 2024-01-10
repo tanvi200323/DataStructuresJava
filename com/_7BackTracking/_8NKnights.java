@@ -17,7 +17,6 @@ public class _8NKnights {
             count++;
         }
         System.out.println("total: "+count);
-
     }
     static List<List<String>> solveNKnights(int n){
         List<List<String>> allboards = new ArrayList<>();
@@ -25,7 +24,6 @@ public class _8NKnights {
         KnightAdder(board,allboards,0);
         return allboards;
     }
-
     static void KnightAdder(char[][] board, List<List<String>> allboards, int col){
         if(col == board.length){
             saveBoard(board, allboards);

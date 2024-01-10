@@ -22,6 +22,7 @@ public class _2StringsMethods {
         System.out.println(str.charAt(3)); //return char at a specific location
         System.out.println(str.contains("b")); //checks of string contains a char or not
         System.out.println(str.replace("n","b")); //replaces a char
+        System.out.println(str.replaceAll("\\s",""));   // "\\s" single whitespace character
         System.out.println(str.substring(0,3)); //returns substring of a string
         System.out.println(Arrays.toString(str.toCharArray())); //converts string to a char array
         System.out.println(str3.strip()); //removes whitespaces like trim() method, but also removes unicode whitespace characters ensuring cross-platform consistency
