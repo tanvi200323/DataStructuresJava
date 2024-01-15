@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 class Node13 {
     int val;
-    Node13 left;
-    Node13 right;
+    Node15 left;
+    Node15 right;
     Node13(int val){
         this.val = val;
         this.left = null;
@@ -15,18 +15,18 @@ class Node13 {
 
 public class _13DiameterOfBT {
     public static void main(String[] args) {
-        Node13 root = buildTree();
+        Node15 root = buildTree();
         System.out.println(diameter(root));
     }
-    static Node13 buildTree(){
-        Node13 root = null;
+    static Node15 buildTree(){
+        Node15 root = null;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter data:" );
         int val= sc.nextInt();
         if(val==-1){
             return null;
         }
-        root = new Node13(val);
+        root = new Node15(val);
 
         System.out.println("Enter left of "+val);
         root.left = buildTree();
@@ -35,7 +35,7 @@ public class _13DiameterOfBT {
 
         return root;
     }
-    static int diameter(Node13 root){
+    static int diameter(Node15 root){
         if(root == null){
             return 0;
         }
@@ -45,7 +45,7 @@ public class _13DiameterOfBT {
 
         return Math.max(d3, Math.max(d1,d2));
     }
-    static int height(Node13 root){
+    static int height(Node15 root){
         if(root == null){
             return 0;
         }
